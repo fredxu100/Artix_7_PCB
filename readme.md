@@ -1,7 +1,7 @@
 # High-Speed 8-Layer XC7A FPGA PCB
 
 <p align="center">
-  <img src="PCB_iso.png" alt="PCB 3D Render" width="65%">
+  <img src="docs/PCB_iso.png" alt="PCB 3D Render" width="65%">
 </p>
 
 ## Overview
@@ -20,7 +20,7 @@ This repository contains the complete design files, manufacturing outputs, and s
 ---
 
 ### Stackup & Controlled Impedance Architecture
-To minimize crosstalk and electromagnetic interference (EMI), an 8-layer stackup was implemented with solid reference planes directly adjacent to primary high-speed signal layers:
+8-layer stackup was implemented with solid reference planes directly adjacent to primary high-speed signal layers:
 
 * **L1 (Top):** Components, general signal lines, fanout
 * **L2 (GND1):** Solid reference ground plane
@@ -41,12 +41,6 @@ To minimize crosstalk and electromagnetic interference (EMI), an 8-layer stackup
 ```text
 systolic-array-matrix-processor-pcb/
 ├── README.md                      <-- Project landing page
-├── LICENSE                        <-- CERN Open Hardware / MIT License
-├── .gitignore                     <-- Altium temp file filter
 ├── docs/                          <-- Documentation & visual renders
-│   ├── renders/                   <-- Board renders and breakout views
-│   ├── Schematics.pdf             <-- Clean vector schematic export
-│   └── Layer_Stackup_Profile.png  <-- Stackup configuration
 ├── fabrication_pack/              <-- Gerber X2, NC Drill, and IPC-2581 outputs
-├── assembly_pack/                 <-- Interactive BOM, Centroid CSV, and Pick & Place
-└── hardware_source/               <-- Raw Altium (.PrjPcb, .SchDoc, .PcbDoc, .OutJob)
+└── altium_files/                  <-- Raw Altium (.PrjPcb, .SchDoc, .PcbDoc, .OutJob)
