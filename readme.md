@@ -1,7 +1,7 @@
 # High-Speed 8-Layer XC7A FPGA PCB
 
 <p align="center">
-  <img src="docs/PCB_iso.png" alt="PCB 3D Render" width="65%">
+  <img src="docs/PCB_iso.png" alt="PCB 3D Render" width="45%">
 </p>
 
 ## Overview
@@ -32,7 +32,7 @@ This repository contains the complete design files, manufacturing outputs, and s
 * **L8 (Bottom):** High-density breakout signals & secondary routing, decoupling capacitors
 
 <p align="center">
-  <img src="docs/stackup.png" alt="Layer Stackup Specs" width="65%">
+  <img src="docs/stackup.png" alt="Layer Stackup Specs" width="45%">
 </p>
 
 
