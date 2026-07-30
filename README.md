@@ -1,12 +1,10 @@
 # High-Speed 8-Layer XC7A FPGA PCB
 
+## Overview
+This repository contains the complete design files, manufacturing outputs, and stackup documentation for an 8-layer high-speed PCB designed around an XC7A FPGA 
 <p align="center">
   <img src="docs/PCB_iso.png" alt="PCB 3D Render" width="45%">
 </p>
-
-## Overview
-This repository contains the complete design files, manufacturing outputs, and stackup documentation for an 8-layer high-speed PCB designed around an XC7A FPGA 
-
 
 ## Technical Specifications
 
