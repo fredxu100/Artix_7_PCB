@@ -1,13 +1,13 @@
 # High-Speed 8-Layer XC7A FPGA PCB
 
 <p align="center">
-  <img src="docs/PCB_iso.png" alt="PCB 3D Render" width="100%">
+  <img src="PCB_iso.png" alt="PCB 3D Render" width="65%">
 </p>
 
 ## Overview
 This repository contains the complete design files, manufacturing outputs, and stackup documentation for an 8-layer high-speed PCB designed around an XC7A FPGA 
 
----
+
 ## Technical Specifications
 
 | Parameter | Specification |
@@ -19,9 +19,7 @@ This repository contains the complete design files, manufacturing outputs, and s
 
 ---
 
-## High-Speed Design & Signal Integrity Highlights
-
-### 1. Stackup & Controlled Impedance Architecture
+### Stackup & Controlled Impedance Architecture
 To minimize crosstalk and electromagnetic interference (EMI), an 8-layer stackup was implemented with solid reference planes directly adjacent to primary high-speed signal layers:
 
 * **L1 (Top):** Components, general signal lines, fanout
@@ -34,9 +32,9 @@ To minimize crosstalk and electromagnetic interference (EMI), an 8-layer stackup
 * **L8 (Bottom):** High-density breakout signals & secondary routing, decoupling capacitors
 
 <p align="center">
-  <img src="docs/stackup.png" alt="Layer Stackup Specs" width="85%">
+  <img src="docs/stackup.png" alt="Layer Stackup Specs" width="65%">
 </p>
----
+
 
 ## Repository Structure
 
