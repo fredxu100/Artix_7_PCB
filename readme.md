@@ -1,7 +1,7 @@
-# High-Speed 6-Layer Systolic Array Matrix Processor PCB
+# High-Speed 8-Layer XC7A FPGA PCB
 
 <p align="center">
-  <img src="docs/renders/PCB_iso.png" alt="PCB 3D Render" width="100%">
+  <img src="docs/PCB_iso.png" alt="PCB 3D Render" width="100%">
 </p>
 
 ## Overview
@@ -34,7 +34,7 @@ To minimize crosstalk and electromagnetic interference (EMI), an 8-layer stackup
 * **L8 (Bottom):** High-density breakout signals & secondary routing, decoupling capacitors
 
 <p align="center">
-  <img src="docs/renders/stackup.png" alt="Layer Stackup Specs" width="85%">
+  <img src="docs/stackup.png" alt="Layer Stackup Specs" width="85%">
 </p>
 ---
 
